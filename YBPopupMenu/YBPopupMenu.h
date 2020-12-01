@@ -63,7 +63,7 @@ typedef NS_ENUM(NSInteger , YBPopupMenuPriorityDirection) {
 /**
  标题数组 只读属性
  */
-@property (nonatomic, strong, readonly) NSArray  * titles;
+@property (nonatomic, strong) NSArray  * titles;
 
 /**
  图片数组 只读属性

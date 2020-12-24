@@ -278,14 +278,14 @@ UITableViewDataSource
     _priorityDirection = YBPopupMenuPriorityDirectionTop;
     _minSpace = 10.0;
     _maxVisibleCount = 5;
-    _itemHeight = 44;
+    _itemHeight = 50;
     _isCornerChanged = NO;
     _showMaskView = YES;
     _orientationManager = [YBPopupMenuDeviceOrientationManager manager];
     _animationManager = [YBPopupMenuAnimationManager manager];
     _animationManager.animationView = self;
     _menuBackView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, YBScreenWidth, YBScreenHeight)];
-    _menuBackView.backgroundColor = [[UIColor blackColor] colorWithAlphaComponent:0.1];
+    _menuBackView.backgroundColor = [[UIColor blackColor] colorWithAlphaComponent:0.5];
     _menuBackView.alpha = 1;
     UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget: self action: @selector(touchOutSide)];
     [_menuBackView addGestureRecognizer: tap];

@@ -162,6 +162,7 @@ UITableViewDataSource
     }
     cell.backgroundColor = [UIColor clearColor];
     cell.textLabel.textColor = _textColor;
+    cell.textLabel.textAlignment = NSTextAlignmentCenter;
     if (_font) {
         cell.textLabel.font = _font;
     }else {
